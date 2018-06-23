@@ -39,6 +39,7 @@
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white" />
 
+
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="@dimen/two_dp"
@@ -283,6 +284,52 @@
                     android:text="@string/Q5_Op4"
                     android:textColor="@android:color/white" />
             </RadioGroup>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_marginTop="@dimen/one_four_dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_two_dp"
+                android:text="@string/Q6"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/one_six_sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_Q6_op1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:text="@string/Q6_Op1"
+                android:textColor="@android:color/white" />
+
+            <CheckBox
+                android:id="@+id/checkbox_Q6_op2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:text="@string/Q6_Op2"
+                android:textColor="@android:color/white" />
+
+            <CheckBox
+                android:id="@+id/checkbox_Q6_op3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:text="@string/Q6_Op3"
+                android:textColor="@android:color/white" />
+
+            <CheckBox
+                android:id="@+id/checkbox_Q6_op4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:text="@string/Q6_Op4"
+                android:textColor="@android:color/white" />
         </LinearLayout>
 
         <Button
