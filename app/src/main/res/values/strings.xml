@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Education</string>
+    <string name="qName">Android Quiz</string>
+    <string name="Name"> Enter Your Name</string>
+    <string name="hi"> Hi \u0020 </string>
+    <string name="ten"> \u0020 out of 10  </string>
+    <string name="youHaveScored"> \u0020 you have Scored \u0020 </string>
+    <!--q1-->
+    <string name="Q1">Q1. What method you should override to use Android menu system ?</string>
+    <string name="Q1_Op1">onCreateOptionsMenu()</string>
+    <string name="Q1_Op2">onCreateMenu()</string>
+    <string name="Q1_Op3">onMenuCreated()</string>
+    <string name="Q1_Op4">onCreateContextMenu()</string>
+    <!--q2-->
+    <string name="Q2">Q2. Which configuration file holds the permission to use the internet ?</string>
+    <string name="Q2_Op1">Layout file</string>
+    <string name="Q2_Op2">Property file</string>
+    <string name="Q2_Op3">Java source file</string>
+    <string name="Q2_Op4">Manifest file</string>
+    <!--q3-->
+    <string name="Q3">Q3. Which of the following is NOT a valid usage for Intents ?</string>
+    <string name="Q3_Op1">Activate and Activity</string>
+    <string name="Q3_Op2">Activate a Service</string>
+    <string name="Q3_Op3">Activate a Broadcast receiver</string>
+    <string name="Q3_Op4">Activate a SQLite DB Connection</string>
+    <!--q4-->
+    <string name="Q4">Q4. Which method is used to close an activity ?</string>
+    <string name="Q4_Op1">Destroy( )</string>
+    <string name="Q4_Op2">Finish( )</string>
+    <string name="Q4_Op3">Stop( )</string>
+    <string name="Q4_Op4">Close( )</string>
+    <!--q5-->
+    <string name="Q5">Q5. Which of these is not defined as a process state ?</string>
+    <string name="Q5_Op1">Non-visible</string>
+    <string name="Q5_Op2">Visible</string>
+    <string name="Q5_Op3">Foreground</string>
+    <string name="Q5_Op4">Background</string>
+    <!--Checkbox and q6-->
+    <string name="Q6">Q6. Which of the following valid Android resource file name ?</string>
+    <string name="Q6_Op1">mylayout.xml</string>
+    <string name="Q6_Op2">myLayout.xml</string>
+    <string name="Q6_Op3">my_layout.xml</string>
+    <string name="Q6_Op4">mylayout1.xml</string>
+    <!--q7-->
+    <string name="Q7">Q7. What is the name of the folder that contains the R.java file ?</string>
+    <string name="Q7_Op1">src</string>
+    <string name="Q7_Op2">res</string>
+    <string name="Q7_Op3">bin</string>
+    <string name="Q7_Op4">gen</string>
+    <!--q8-->
+    <string name="Q8">Q8. What does the src folder contain ?</string>
+    <string name="Q8_Op1">Image and icon files</string>
+    <string name="Q8_Op2">XML resource files</string>
+    <string name="Q8_Op3">The application manifest file</string>
+    <string name="Q8_Op4">Java source code files</string>
+    <!--q9-->
+    <string name="Q9">Q9. founder Of Java is ?</string>
+    <!--q10-->
+    <string name="Q10">Q10.You can create a custom view by extending class Activity.(True/False)</string>
+    <!--Button-->
+    <string name="getResult">Submit</string>
+    <string name="Answer">Answer</string>
+    <string name="Result">Result</string>
+</resources>

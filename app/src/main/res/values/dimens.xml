@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="one_four_dp">14dp</dimen>
+    <dimen name="one_six_dp">16dp</dimen>
+    <dimen name="two_five_dp">25dp</dimen>
+    <dimen name="two_two_dp">22dp</dimen>
+    <dimen name="one_six_sp">16sp</dimen>
+    <dimen name="three_two_sp">32sp</dimen>
+</resources>
