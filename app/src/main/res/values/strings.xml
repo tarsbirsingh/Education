@@ -54,7 +54,7 @@
     <string name="Q8_Op3">The application manifest file</string>
     <string name="Q8_Op4">Java source code files</string>
     <!--q9-->
-    <string name="Q9">Q9. founder Of Java is ?</string>
+    <string name="Q9">Q9. founder Of Java is ?  (eg. Tarsbir Singh)</string>
     <!--q10-->
     <string name="Q10">Q10.You can create a custom view by extending class Activity.(True/False)</string>
     <!--Button-->

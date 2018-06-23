@@ -330,12 +330,162 @@
                 android:layout_marginTop="@dimen/eight_dp"
                 android:text="@string/Q6_Op4"
                 android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_marginTop="@dimen/one_four_dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_two_dp"
+                android:text="@string/Q7"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/one_six_sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_Q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten_dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q7_op1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q7_Op1"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q7_op2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q7_Op2"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q7_op3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q7_Op3"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q7_op4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q7_Op4"
+                    android:textColor="@android:color/white" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_marginTop="@dimen/one_four_dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_two_dp"
+                android:text="@string/Q8"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/one_six_sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_Q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten_dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q8_op1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q8_Op1"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q8_op2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q8_Op2"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q8_op3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q8_Op3"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_Q8_op4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q8_Op4"
+                    android:textColor="@android:color/white" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_marginTop="@dimen/one_four_dp"
+                android:background="@android:color/white" />
+            <!--9 Question-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/one_six_dp"
+                android:text="@string/Q9"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/one_six_sp" />
+
+            <EditText
+                android:id="@+id/Q9_ans_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:hint="@string/Answer"
+                android:inputType="textCapWords"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_marginTop="@dimen/one_four_dp"
+                android:background="@android:color/white" />
+            <!--10 Question-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/one_six_dp"
+                android:text="@string/Q10"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/one_six_sp" />
+
+            <EditText
+                android:id="@+id/QuestionTen_ans_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:hint="@string/Answer"
+                android:inputType="textCapWords"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+            <!--Result show with @id/textView_name-->
         </LinearLayout>
 
         <Button
+            android:id="@+id/button_show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/one_four_dp"
+            android:layout_marginTop="@dimen/one_four_dp"
             android:text="@string/Result" />
     </LinearLayout>
 </ScrollView>
