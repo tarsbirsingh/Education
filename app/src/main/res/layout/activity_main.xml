@@ -476,7 +476,6 @@
                 android:inputType="textCapWords"
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white" />
-            <!--Result show with @id/textView_name-->
         </LinearLayout>
 
         <Button
