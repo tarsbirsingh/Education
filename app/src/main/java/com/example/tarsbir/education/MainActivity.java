@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private RadioGroup radioGroup7;
     private RadioGroup radioGroup8;
     private CheckBox checkBox1;
+    private CheckBox checkBox2;
     private CheckBox checkBox3;
     private CheckBox checkBox4;
     private EditText editName;
@@ -52,13 +53,13 @@ public class MainActivity extends AppCompatActivity {
         radioGroup8 = findViewById(R.id.radioGroup_Q8);
         //Checkbox here
         checkBox1 = findViewById(R.id.checkbox_Q6_op1);
+        checkBox2 = findViewById(R.id.checkbox_Q6_op2);
         checkBox3 = findViewById(R.id.checkbox_Q6_op3);
         checkBox4 = findViewById(R.id.checkbox_Q6_op4);
         editText1 = findViewById(R.id.Q9_ans_view);
         editText2 = findViewById(R.id.QuestionTen_ans_view);
         editName = findViewById(R.id.nameText);
         showButton = findViewById(R.id.button_show);
-        //displayText = findViewById(R.id.textView_name);
     }
 
     @Override
@@ -87,56 +88,52 @@ public class MainActivity extends AppCompatActivity {
                 radioButton7 = findViewById(selectedId7);
                 radioButton8 = findViewById(selectedId8);
                 checkBox1.isChecked();
+                checkBox2.isChecked();
                 checkBox3.isChecked();
                 checkBox4.isChecked();
                 //if statement for radio button
                 if (selectedId1 == R.id.radioButton_Q1_op1) {
-                    score += 1;
+                    score++;
                 }
 
                 if (selectedId2 == R.id.radioButton_Q2_op4) {
-                    score += 1;
+                    score++;
                 }
 
                 if (selectedId3 == R.id.radioButton_Q3_op4) {
-                    score += 1;
+                    score++;
                 }
 
                 if (selectedId4 == R.id.radioButton_Q4_op2) {
-                    score += 1;
+                    score++;
                 }
 
                 if (selectedId5 == R.id.radioButton_Q5_op1) {
-                    score += 1;
+                    score++;
                 }
 
                 if (selectedId7 == R.id.radioButton_Q7_op4) {
-                    score += 1;
+                    score++;
                 }
                 if (selectedId8 == R.id.radioButton_Q8_op4) {
-                    score += 1;
+                    score++;
                 }
-                if (checkBox4.isChecked() && checkBox3.isChecked() && checkBox1.isChecked()) {
-                    score += 1;
+                if (checkBox4.isChecked() && !checkBox2.isChecked() && checkBox3.isChecked() && checkBox1.isChecked()) {
+                    score++;
                 }
 
                 String questionNine = editText1.getText().toString();
-                if (questionNine.equals("James Gosling")) {
-                    score += 1;
+                if (questionNine.equalsIgnoreCase("James Gosling")) {
+                    score++;
+                } else {
+                    Toast.makeText(getApplicationContext(), getString(R.string.message), Toast.LENGTH_SHORT).show();
                 }
                 String questionTen = editText2.getText().toString();
-                if (questionTen.equals("False")) {
-                    score += 1;
+                if (questionTen.equalsIgnoreCase("False")) {
+                    score++;
                 }
-
                 String finalScore = getString(R.string.hi) + name + getString(R.string.youHaveScored) + score + getString(R.string.ten);
                 Toast.makeText(getApplicationContext(), finalScore, Toast.LENGTH_LONG).show();
-
-
-                //String hell ="Thanks "+name+"your score is"+score;
-
-                //display value on screen
-                //displayText.setText(hell);
             }
         });
 

@@ -3,6 +3,7 @@
     <string name="qName">Android Quiz</string>
     <string name="Name"> Enter Your Name</string>
     <string name="hi"> Hi \u0020 </string>
+    <string name="message">Enter correct Name Again </string>
     <string name="ten"> \u0020 out of 10  </string>
     <string name="youHaveScored"> \u0020 you have Scored \u0020 </string>
     <!--q1-->
